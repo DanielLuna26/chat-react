@@ -1,0 +1,25 @@
+{
+  "name": "chat",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@adonisjs/websocket-client": "^1.0.9",
+    "react": "16.4.2",
+    "react-native": "0.55.0",
+    "react-native-router-flux": "^4.0.0-beta.31"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "23.4.2",
+    "react-test-renderer": "16.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
